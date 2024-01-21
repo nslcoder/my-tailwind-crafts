@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <title>Agency Landing Page</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+  <div class="max-w-[1920px] text-gray-200 bg-black">
+    <header class="py-5 px-10 flex justify-between items-center relative">
+      <div class="cursor-pointer">
+        <img src="images/logo.png" alt="Logo">
+      </div>
+      <nav class="hidden md:block">
+        <ul class="flex gap-6 font-medium">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+      </nav>
+      <div class="hidden md:block">
+        <button class="py-2 px-4 border border-white rounded-lg hover:bg-white hover:text-black">Contact Us</button>
+      </div>
+      <div class="md:hidden cursor-pointer show-nav">
+        <img src="images/hamburger.svg" alt="Hamburger">
+      </div>
+      <div
+        class="dropdown-nav hidden md:hidden rounded-md p-4 absolute top-16 right-2 border border-white bg-white text-black">
+        <nav>
+          <ul class="font-medium">
+            <li class="mb-2"><a href="#" class="inline-block w-full">Home</a></li>
+            <li class="mb-2"><a href="#" class="inline-block w-full">About</a></li>
+            <li class="mb-2"><a href="#" class="inline-block w-full">Service</a></li>
+            <li><a href="#" class="inline-block w-full">Projects</a></li>
+          </ul>
+        </nav>
+        <div class="mt-5">
+          <button class="py-2 px-4 border rounded-lg bg-black text-white">Contact Us</button>
+        </div>
+      </div>
+    </header>
+    <main class="py-5 px-10">
+      <section class="my-12">
+        <div class="flex flex-col items-center">
+          <h1 class="text-center font-bold text-4xl md:text-6xl lg:text-7xl">Make your dream business goal come true
+          </h1>
+          <p class="my-6 md:pr-10 text-base md:text-xl text-center font-medium">when you need us for improve your
+            business,
+            then come with us to help your business have reach it, you just sit and feel that goal</p>
+          <button
+            class="bg-white rounded-lg font-semibold py-4 px-8 text-xl text-black shadow-md shadow-blue-400 hover:scale-110 transition-all">Start
+            Project</button>
+        </div>
+        <div class="mt-10">
+          <img src="images/banner-image.png" alt="Banner image" class="w-full">
+        </div>
+      </section>
+      <section class="my-24">
+        <h2 class="text-center font-bold text-3xl md:text-5xl lg:text-6xl mb-4">Our Team</h2>
+        <div class="flex flex-col md:flex-row gap-5">
+          <div class="flex-1">
+            <img src="images/team.png" alt="Team" class="w-full">
+          </div>
+          <div class="flex-1 flex flex-col justify-center text-base md:text-xl">
+            <p>We move with make a Creative Strategy for help your business goal, we help to improve your income by a
+              services we have. make your content look interesting and make people look for your business</p>
+            <p class="my-4">We move with make a Creative Strategy for help your business goal, we help to improve your
+              income by a services we have. make your content look interesting and make people look for your business
+            </p>
+            <div class="mt-8">
+              <button class="py-2 px-4 border rounded-lg bg-white text-black mr-5">About Us</button>
+              <button class="py-2 px-4 border rounded-lg bg-black text-white">Our Story</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="my-24">
+        <div class="flex flex-col md:flex-row gap-5">
+          <div class="flex-1 flex flex-col justify-center text-base md:text-xl">
+            <h2 class="font-bold text-3xl md:text-5xl lg:text-6xl mb-4">Perfect and Fast Movement</h2>
+            <p class="my-8">We move with make a Creative Strategy for help your business goal, we help to improve your
+              income by a
+              services we have. make your content look interesting and make people look for your business</p>
+            <div class="flex items-center justify-end gap-2 cursor-pointer">
+              <span>Read more</span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 18L21 12L15 6" stroke="#E2E2E2" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M3 12H20" stroke="#E2E2E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M21 12H20" stroke="#E2E2E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+
+            </div>
+          </div>
+          <div class="flex-1 grid grid-cols-2 gap-5">
+            <div class="border border-stone-800 rounded-lg p-3 flex flex-col justify-center items-center cursor-pointer">
+              <div class="bg-white p-4 rounded-full mb-4">
+                <img src="images/monitor.svg" alt="Monitor">
+              </div>
+              <p class="font-semibold text-lg text-center">Social Media Management</p>
+            </div>
+            <div class="border border-stone-800 rounded-lg p-3 flex flex-col justify-center items-center cursor-pointer">
+              <div class="bg-red-500 p-4 rounded-full mb-4">
+                <img src="images//settings.svg" alt="Settings">
+              </div>
+              <p class="font-semibold text-lg text-center">Search Engine Optimization</p>
+            </div>
+            <div class="border border-stone-800 rounded-lg p-3 flex flex-col justify-center items-center cursor-pointer">
+              <div class="bg-green-500 p-4 rounded-full mb-4">
+                <img src="images/pen-tool.svg" alt="Pen tool">
+              </div>
+              <p class="font-semibold text-lg text-center">Design</p>
+            </div>
+            <div class="border border-stone-800 rounded-lg p-3 flex flex-col justify-center items-center cursor-pointer">
+              <div class="bg-yellow-500 p-4 rounded-full mb-4">
+                <img src="images/tv.svg" alt="TV">
+              </div>
+              <p class="font-semibold text-lg text-center">Ads</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="py-5 px-10">
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-2">
+        <div>
+          <h2 class="font-semibold text-xl mb-2">Terms & Policies</h2>
+          <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="font-semibold text-xl mb-2">Company</h2>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="font-semibold text-xl mb-2">Contact</h2>
+          <div>
+            <p>(555) 555-5555</p>
+            <p>example@domain.com</p>
+          </div>
+        </div>
+        <div>
+          <h2 class="font-semibold text-xl mb-2">Location</h2>
+          <div>
+            <p>XYZ Creative Agency</p>
+            <p>Street No 89</p>
+            <p>Kathmandu, Nepal</p>
+          </div>
+        </div>
+      </div>
+      <div class="mt-10 text-center">
+        <span class="inline-block pt-2 border-t">Copyright &#169; 2024 Agency Creative. All Rights Reserved.</span>
+      </div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
